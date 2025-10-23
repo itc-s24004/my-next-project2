@@ -12,7 +12,7 @@ export type Member = {
 
 
 export type Category = {
-    nama: string;
+    name: string;
 } & MicroCMSListContent;
 
 
