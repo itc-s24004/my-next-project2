@@ -5,7 +5,6 @@ import ButtonLink from "@/app/_components/ButtonLink";
 import { notFound } from "next/navigation";
 
 
-export const revalidate = 0;
 
 type Props = {
     params: {
