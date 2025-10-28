@@ -11,6 +11,7 @@ type Props = {
     news: News[];
 };
 
+export const revalidate = 60;
 
 export default async function Home() {
     const data = await getNewsList({ limit: TOP_NEWS_LIMIT });
